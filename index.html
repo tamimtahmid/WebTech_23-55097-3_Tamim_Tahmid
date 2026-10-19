@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Library Membership Form</title>
+	<link rel="stylesheet"href="style.css">
+</head>
+<body>
+	<h2>Membership Form </h2>
+	<form id="membershipform">
+		<div>
+			<lebel for ="name">Name:</lebel>
+			<input type="text" name="name" id="name" required>
+		</div><br>
+		<div>
+			<lebel for ="age">Age:</lebel>
+			<input type="number" name="age" id="age" required>
+		</div><br>
+		<div>
+			<lebel for ="email">Email:</lebel>
+			<input type="email" name="email" id="email" required>
+		</div><br>
+		<div>
+			<lebel for ="phonenumber">Phone Number:</lebel>
+			<input type="number" name="phonenumber" id="phonenumber" required>
+		</div><br>
+		<div>
+		<lebel for ="membershipplan">Select Membership Plan:</lebel>
+		<input type="radio" name="membershipplan" id="p1">Basic
+		<input type="radio" name="membershipplan" id="p2">Silver
+		<input type="radio" name="membershipplan" id="p3" required>Gold 
+	</div><br>
+	<div>
+		<input type="submit" name="Register">
+		<input type="reset" name="reset">
+	</div>
+	</form><hr>
+	<div id="output"></div>
+	<script src="script.js"></script>
+</body>
+</html>
